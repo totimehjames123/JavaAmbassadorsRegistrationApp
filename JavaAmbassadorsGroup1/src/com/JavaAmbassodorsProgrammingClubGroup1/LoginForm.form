@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.JavaAmbassodorsProgrammingClubGroup1.LoginForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="510" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="100" height="270"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="948ae" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Arial" size="14" style="0"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="2a6da" class="javax.swing.JTextField" binding="usernameTextField">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="14"/>
+          <inheritsPopupMenu value="true"/>
+          <minimumSize width="49" height="30"/>
+          <preferredSize width="250" height="40"/>
+          <text value=""/>
+          <toolTipText value="Enter your username"/>
+        </properties>
+      </component>
+      <component id="cd017" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="14" style="0"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Password"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="3e75a" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Arial" size="14"/>
+          <preferredSize width="250" height="40"/>
+          <text value=""/>
+          <toolTipText value="Enter your password"/>
+        </properties>
+      </component>
+      <component id="8c40c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Arial" size="24" style="1"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="b5064" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16050879"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Arial" size="14" style="0"/>
+          <foreground color="-1"/>
+          <preferredSize width="250" height="40"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="a9692" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusCycleRoot value="false"/>
+          <font name="Arial" size="10" style="2"/>
+          <text value="Do not have an account?"/>
+        </properties>
+      </component>
+      <component id="7bfb0" class="javax.swing.JButton" binding="createNewAccountButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <focusable value="false"/>
+          <font name="Arial" size="14" style="0"/>
+          <foreground color="-1"/>
+          <preferredSize width="250" height="40"/>
+          <text value="Create new account"/>
+        </properties>
+      </component>
+      <component id="1a45d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" style="2"/>
+          <text value="OR"/>
+        </properties>
+      </component>
+      <component id="8f9e1" class="javax.swing.JLabel" binding="logoImageLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Arial"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

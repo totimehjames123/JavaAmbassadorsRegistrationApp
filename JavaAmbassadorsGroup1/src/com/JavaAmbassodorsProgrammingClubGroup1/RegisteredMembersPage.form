@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.JavaAmbassodorsProgrammingClubGroup1.RegisteredMembersPage">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="859" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <focusable value="false"/>
+      <preferredSize width="0" height="0"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none">
+      <color color="-12906431"/>
+    </border>
+    <children>
+      <grid id="f8c4d" binding="headerPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <preferredSize width="0" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d9ee6" binding="titlePanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-1"/>
+              <preferredSize width="650" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="49dda" class="javax.swing.JLabel" binding="logoLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="28" style="0"/>
+                  <text value="Registered Members of Java Ambassadors"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d9999" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="d53a0" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="20" left="20" bottom="20" right="20"/>
+                <constraints border-constraint="East"/>
+                <properties>
+                  <background color="-1"/>
+                  <preferredSize width="600" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f331f" class="javax.swing.JTextField" binding="searchField">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <toolTipText value="Type here to search for Registered Members"/>
+                    </properties>
+                  </component>
+                  <hspacer id="764ae">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="eb07a" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="100" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-12906431"/>
+                      <focusPainted value="false"/>
+                      <focusable value="false"/>
+                      <foreground color="-1"/>
+                      <text value="Search"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="b0085" binding="delete" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <preferredSize width="0" height="70"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="67502" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="375b7" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-37314"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="80" height="40"/>
+                  <text value="Delete"/>
+                </properties>
+              </component>
+              <component id="26d27" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-16236252"/>
+                  <focusable value="false"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="80" height="40"/>
+                  <text value="Refresh"/>
+                </properties>
+              </component>
+              <component id="3b67c" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-16050879"/>
+                  <focusable value="false"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="80" height="40"/>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d81dd" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="50" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="d412" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-1"/>
+          <preferredSize width="50" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="74f0d" binding="tablePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+          <focusable value="false"/>
+          <foreground color="-15329770"/>
+          <inheritsPopupMenu value="false"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
